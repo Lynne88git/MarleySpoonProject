@@ -213,9 +213,16 @@ const Home: FC<HomeProps> = (props) => (
                           <RichText
                             render={body.primary.ImgTextRightWQuoteDesc}
                           />
-                          <RichText
-                            render={body.primary.ImgTextRightWQuoteh3}
-                          />
+
+                          <div className="d-flex justify-content-center">
+                            <div className={styles.blockquote}>
+                              <div className={styles.quoteTextStyles}>
+                                <RichText
+                                  render={body.primary.ImgTextRightWQuoteh3}
+                                />
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -267,10 +274,41 @@ const Home: FC<HomeProps> = (props) => (
               <div>
                 {body.slice_type === "center_quote" && (
                   <div key={body.slice_type}>
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center mb-5">
                       <div className={styles.blockquote}>
                         <div className={styles.quoteTextStylesLong}>
                           <RichText render={body.primary.CenterQuoteh3} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Call to action banner */}
+            <div key={body.slice_type["call_to_action"]}>
+              <div>
+                {body.slice_type === "call_to_action" && (
+                  <div key={body.slice_type}>
+                    <div className={styles.customColourRow}>
+                      <div className="col-12 py-5">
+                        <div className="d-flex justify-content-center py-2">
+                          <RichText render={body.primary.CallToActionTitle} />
+                        </div>
+                        <div className="d-flex justify-content-center py-2">
+                          <a
+                            className="btn btn-primary"
+                            href={body.primary.CallToActionBtn}
+                            role="button"
+                          >
+                            Sign Up Free
+                          </a>
+                        </div>
+                        <div className="d-flex justify-content-center py-2">
+                          <a href="mailto:demo@edapp.com">
+                            <RichText render={body.primary.CallToActionText} />
+                          </a>
                         </div>
                       </div>
                     </div>

@@ -98,7 +98,19 @@
   max-width: 100%;
   width: 100%;
   margin: auto;
-  max-height: 696px;
+  max-height: 696px !important;
+}
+
+.customColourRow {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  background-color: #152231;
+  color: #fff;
 }
 
 .rowBlockvlg {
@@ -132,13 +144,13 @@
 
 .quoteTextStyles {
   width: 450px;
-  font-size: 1.33333rem;
+  font-size: 1.1rem;
   line-height: 1.25em;
 }
 
 .quoteTextStylesLong {
   width: 600px;
-  font-size: 1.33333rem;
+  font-size: 1.1rem;
   line-height: 1.25em;
   max-height: 300px;
 }
