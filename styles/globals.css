@@ -37,6 +37,13 @@ a {
   text-decoration: none;
 }
 
+.btn-customBlue {
+  background-color: #46b4e9;
+  background-image: linear-gradient(#46b4e9, #0070af);
+  color: #fff;
+  padding: 12px 115px 12px 115px;
+}
+
 * {
   box-sizing: border-box;
 }

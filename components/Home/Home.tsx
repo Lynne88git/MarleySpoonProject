@@ -294,11 +294,13 @@ const Home: FC<HomeProps> = (props) => (
                     <div className={styles.customColourRow}>
                       <div className="col-12 py-5">
                         <div className="d-flex justify-content-center py-2">
-                          <RichText render={body.primary.CallToActionTitle} />
+                          <div className={styles.xxlTitle}>
+                            <RichText render={body.primary.CallToActionTitle} />
+                          </div>
                         </div>
                         <div className="d-flex justify-content-center py-2">
                           <a
-                            className="btn btn-primary"
+                            className="btn btn-customBlue"
                             href={body.primary.CallToActionBtn}
                             role="button"
                           >
