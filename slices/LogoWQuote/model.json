@@ -1,0 +1,44 @@
+{
+  "id": "logo_w_quote",
+  "type": "SharedSlice",
+  "name": "LogoWQuote",
+  "description": "LogoWQuote",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "LogoWQuote",
+      "primary": {
+        "LogoWQuoteBg": {
+          "config": {
+            "label": "LogoWQuoteBg",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "LogoWQuoteQuote": {
+          "config": {
+            "label": "LogoWQuoteQuote",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "LogoWQuoteAuthor": {
+          "config": {
+            "label": "LogoWQuoteAuthor",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

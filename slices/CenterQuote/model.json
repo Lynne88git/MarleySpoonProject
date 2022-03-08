@@ -1,0 +1,27 @@
+{
+  "id": "center_quote",
+  "type": "SharedSlice",
+  "name": "CenterQuote",
+  "description": "CenterQuote",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CenterQuote",
+      "primary": {
+        "CenterQuoteh3": {
+          "config": {
+            "label": "CenterQuoteh3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

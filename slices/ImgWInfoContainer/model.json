@@ -1,0 +1,44 @@
+{
+  "id": "img_w_info_container",
+  "type": "SharedSlice",
+  "name": "ImgWInfoContainer",
+  "description": "ImgWInfoContainer",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImgWInfoContainer",
+      "primary": {
+        "ImgWInfoContainerRightImg": {
+          "config": {
+            "label": "ImgWInfoContainerRightImg",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "ImgWInfoContainerTitle": {
+          "config": {
+            "label": "ImgWInfoContainerTitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        },
+        "ImgWInfoContainerDesc": {
+          "config": {
+            "label": "ImgWInfoContainerDesc",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

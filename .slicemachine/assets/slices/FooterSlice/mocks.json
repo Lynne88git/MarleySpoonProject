@@ -1,0 +1,49 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "footer_slice",
+    "items": [],
+    "primary": {
+      "FooterHeading1": [
+        {
+          "type": "paragraph",
+          "text": "Aliquip pariatur labore aliquip in do reprehenderit. Consectetur nostrud nostrud deserunt cillum aliquip.",
+          "spans": []
+        }
+      ],
+      "SubLink1": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "SubLink2": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "SubLink3": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "SubLink4": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "SubLink5": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "SubLink6": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "SubLink7": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "SubLink8": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      }
+    }
+  }
+]

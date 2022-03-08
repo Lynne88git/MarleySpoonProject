@@ -1,0 +1,42 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  position: relative;
+  color: #1f2e3c;
+  line-height: 1.6;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  font-family: "Ed Sans Neue", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 18px !important;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 0 0 0.5em !important;
+  font-size: 2rem !important;
+  line-height: 1.2em !important;
+  letter-spacing: 0 !important;
+  font-weight: 300 !important;
+}
+
+h2 {
+  letter-spacing: 0;
+  font-weight: 300 !important;
+  font-size: 1.33333rem !important;
+  line-height: 1.25em !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

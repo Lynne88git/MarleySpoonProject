@@ -1,0 +1,52 @@
+{
+  "id": "img_text_right",
+  "type": "SharedSlice",
+  "name": "ImgTextRight",
+  "description": "ImgTextRight",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImgTextRight",
+      "primary": {
+        "Title1": {
+          "config": {
+            "label": "Title1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        },
+        "description2": {
+          "config": {
+            "label": "description2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "lgBgSlice": {
+          "config": {
+            "label": "lgBgSlice",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

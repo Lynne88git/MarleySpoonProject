@@ -1,0 +1,91 @@
+{
+  "slices": {
+    "CenterImgBlockText": {
+      "default-slice": {
+        "primary": {
+          "CenterBlockImg": {
+            "content": "https://images.prismic.io/marley-spoon-project2/e85c1e2b-5d67-477e-928a-a9e96d4ef900_logo.png"
+          }
+        }
+      }
+    },
+    "LogoWQuote": {
+      "default-slice": {
+        "primary": {
+          "LogoWQuoteQuote": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "LogoWQuoteAuthor": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ImgTextRightWQuote": {
+      "default-slice": {
+        "primary": {
+          "ImgTextRightWQuoteTitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "ImgTextRightWQuoteDesc": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ImgWInfoContainer": {
+      "default-slice": {
+        "primary": {
+          "ImgWInfoContainerTitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "ImgWInfoContainerDesc": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "CenterQuote": {
+      "default-slice": {
+        "primary": {
+          "CenterQuoteh3": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "CallToAction": {
+      "default-slice": {
+        "primary": {
+          "CallToActionText": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

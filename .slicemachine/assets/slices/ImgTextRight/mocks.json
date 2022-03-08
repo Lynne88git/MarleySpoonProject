@@ -1,0 +1,40 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "img_text_right",
+    "items": [],
+    "primary": {
+      "Title1": [
+        {
+          "type": "heading2",
+          "text": "Drive e-business models",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Commodo sunt elit esse laboris excepteur cillum nostrud proident mollit laborum fugiat ex aliqua incididunt in. Eiusmod do ullamco nulla commodo id veniam velit. Cillum id fugiat cupidatat laboris do ullamco aliqua eiusmod velit cillum eu occaecat.",
+          "spans": []
+        }
+      ],
+      "description2": [
+        {
+          "type": "paragraph",
+          "text": "Laborum eiusmod est laboris ullamco labore reprehenderit esse.",
+          "spans": []
+        }
+      ],
+      "lgBgSlice": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+      }
+    }
+  }
+]

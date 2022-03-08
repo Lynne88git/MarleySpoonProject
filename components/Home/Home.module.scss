@@ -1,0 +1,221 @@
+// .imgTextRight {
+//   width: 200px;
+//   height: auto;
+//   position: relative;
+
+//   .bgSliceImg {
+//     position: relative;
+//     /* top: 0; */
+//     /* left: 0; */
+//     /* bottom: 0; */
+//     /* right: 0; */
+//     box-sizing: border-box;
+//     padding: 0;
+//     border: none;
+//     margin: auto;
+//     display: inline-block;
+//     width: 0;
+//     height: 0;
+//     min-width: 100%;
+//     max-width: 100%;
+//     min-height: 400px;
+//     max-height: 100%;
+//   }
+// }
+.Home {
+  font-family: "Ed Sans Neue", "Helvetica Neue", Arial, sans-serif;
+}
+
+.logo {
+  min-width: 65% !important;
+  min-height: 65% !important;
+}
+
+.mainSubheading {
+  justify-content: center !important;
+  display: flex !important;
+  padding: 1rem !important;
+  text-rendering: geometricPrecision;
+  margin: 0 0 0.5em;
+  font-size: 2.2rem !important;
+  line-height: 1.2em;
+  letter-spacing: 0;
+  font-weight: 300 !important;
+}
+
+.secondSubheading {
+  justify-content: center !important;
+  text-rendering: geometricPrecision;
+  display: flex !important;
+  padding: 1rem !important;
+  font-size: 1.33333rem;
+  line-height: 1.25em;
+  letter-spacing: 0;
+  font-weight: 300 !important;
+  margin-bottom: 0;
+}
+
+.customDescWidth {
+  flex: 0 0 auto;
+  width: 52%;
+  padding-top: 1.5rem !important;
+}
+
+.mainDescription {
+  justify-content: center !important;
+  text-rendering: geometricPrecision;
+  display: flex !important;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+.pageBreakLine {
+  margin: 0 auto !important;
+  outline: 0;
+  border: none;
+  border-top: 1px solid #e6ebf0;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 0.3px;
+}
+
+//alternate styles
+
+.customContainer {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rowBlockvlg {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.blockvsm {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.logoStyles {
+  padding-top: 9px !important;
+  padding-bottom: 16px !important;
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
+.quoteImgStyles {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.quoteTextStyles {
+  width: 450px;
+  font-size: 1.33333rem;
+  line-height: 1.25em;
+}
+
+.blockquote {
+  display: block;
+  position: relative;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.blockquote:before {
+  position: absolute;
+  content: "“";
+  font-size: 120px;
+  top: 0;
+  line-height: 0.9;
+  font-weight: 300;
+  vertical-align: middle;
+  left: -60px;
+  color: #e6ebf0;
+  font-family: "Ed Sans Neue", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.smlText {
+  text-align: left;
+  letter-spacing: 0;
+  font-size: small;
+  margin-left: -37px;
+}
+
+.home_description {
+  padding-left: 182px;
+  padding-right: 169px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.textLgh2 {
+  text-align: center;
+  letter-spacing: 0;
+  font-weight: 300;
+  padding: 3rem !important;
+}
+
+.textDescriptionBanner {
+  height: 696px;
+  position: absolute;
+  z-index: 1;
+  align-items: flex-end !important;
+  flex-direction: column !important;
+  display: flex !important;
+}
+
+.textDescriptionLeftBanner {
+  height: 696px;
+  position: absolute;
+  z-index: 1;
+  align-items: flex-start !important;
+  flex-direction: column !important;
+  display: flex !important;
+}
+
+.textDescInner {
+  position: relative !important;
+  width: 50%;
+  padding: 130px;
+  text-align: center;
+}
+
+.textDescInnerLeft {
+  position: relative !important;
+  width: 50%;
+  padding: 130px;
+  text-align: left;
+}
+
+.imgInnerRightContainer {
+  position: relative !important;
+  width: 100%;
+  padding: 130px;
+}
+
+.imgInnerRight {
+  min-width: 50% !important;
+  min-height: 50% !important;
+}
+
+@media (min-width: 768px) {
+  .customContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "img_text_right_w_quote",
+  "type": "SharedSlice",
+  "name": "ImgTextRightWQuote",
+  "description": "ImgTextRightWQuote",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImgTextRightWQuote",
+      "primary": {
+        "ImgTextRightWQuoteBg": {
+          "config": {
+            "label": "ImgTextRightWQuoteBg",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "ImgTextRightWQuoteTitle": {
+          "config": {
+            "label": "ImgTextRightWQuoteTitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        },
+        "ImgTextRightWQuoteDesc": {
+          "config": {
+            "label": "ImgTextRightWQuoteDesc",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "ImgTextRightWQuoteh3": {
+          "config": {
+            "label": "ImgTextRightWQuoteh3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

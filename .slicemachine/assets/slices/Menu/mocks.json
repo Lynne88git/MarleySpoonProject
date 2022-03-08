@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "menu",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Repurpose dot-com infrastructures",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Tempor culpa ullamco elit deserunt dolore quis id sunt laborum eiusmod exercitation mollit reprehenderit. Incididunt nisi nulla reprehenderit amet nostrud.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

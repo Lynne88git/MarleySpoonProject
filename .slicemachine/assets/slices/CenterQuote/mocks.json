@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "center_quote",
+    "items": [],
+    "primary": {
+      "CenterQuoteh3": [
+        {
+          "type": "heading3",
+          "text": "Utilize distributed e-markets",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

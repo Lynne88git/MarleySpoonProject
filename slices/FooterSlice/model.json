@@ -1,0 +1,91 @@
+{
+  "id": "footer_slice",
+  "type": "SharedSlice",
+  "name": "FooterSlice",
+  "description": "FooterSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FooterSlice",
+      "primary": {
+        "FooterHeading1": {
+          "config": {
+            "label": "FooterHeading1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "SubLink1": {
+          "config": {
+            "label": "SubLink1",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "SubLink2": {
+          "config": {
+            "label": "SubLink2",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "SubLink3": {
+          "config": {
+            "label": "SubLink3",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "SubLink4": {
+          "config": {
+            "label": "SubLink4",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "SubLink5": {
+          "config": {
+            "label": "SubLink5",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "SubLink6": {
+          "config": {
+            "label": "SubLink6",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "SubLink7": {
+          "config": {
+            "label": "SubLink7",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "SubLink8": {
+          "config": {
+            "label": "SubLink8",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

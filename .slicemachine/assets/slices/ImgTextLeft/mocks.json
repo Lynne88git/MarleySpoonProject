@@ -1,0 +1,40 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "img_text_left",
+    "items": [],
+    "primary": {
+      "ImgTextLeftTitle": [
+        {
+          "type": "paragraph",
+          "text": "Cupidatat dolore cupidatat laborum consequat.",
+          "spans": []
+        }
+      ],
+      "ImgTextLeftDesc1": [
+        {
+          "type": "paragraph",
+          "text": "Nostrud incididunt voluptate laboris est magna ea aute irure.",
+          "spans": []
+        }
+      ],
+      "ImgTextLeftDesc2": [
+        {
+          "type": "paragraph",
+          "text": "Mollit veniam id officia ea eu cillum magna fugiat consequat. Mollit pariatur consectetur magna velit ut Lorem nulla.",
+          "spans": []
+        }
+      ],
+      "ImgTextLeftBg": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
+      }
+    }
+  }
+]
