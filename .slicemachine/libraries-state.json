@@ -270,7 +270,7 @@
                     "label": "CenterQuoteh3",
                     "placeholder": "",
                     "allowTargetBlank": true,
-                    "single": "heading3"
+                    "single": "paragraph"
                   },
                   "type": "StructuredText"
                 }
@@ -288,8 +288,8 @@
             "primary": {
               "CenterQuoteh3": [
                 {
-                  "type": "heading3",
-                  "text": "Utilize distributed e-markets",
+                  "type": "paragraph",
+                  "text": "Ad in id dolore laboris enim veniam do. Lorem nulla nisi deserunt incididunt aliquip dolor irure aliquip esse enim laborum ullamco in. Fugiat adipisicing pariatur ad duis nostrud et incididunt laboris cillum cupidatat proident irure Lorem.",
                   "spans": []
                 }
               ]

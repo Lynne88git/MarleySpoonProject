@@ -68,7 +68,7 @@
         "primary": {
           "CenterQuoteh3": {
             "config": {
-              "patternType": "HEADING",
+              "patternType": "PARAGRAPH",
               "blocks": 1
             }
           }

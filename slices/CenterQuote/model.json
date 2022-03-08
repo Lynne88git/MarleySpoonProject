@@ -16,7 +16,7 @@
             "label": "CenterQuoteh3",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "heading3"
+            "single": "paragraph"
           },
           "type": "StructuredText"
         }

@@ -229,33 +229,48 @@ const Home: FC<HomeProps> = (props) => (
               <div>
                 {body.slice_type === "img_w_info_container" && (
                   <div key={body.slice_type}>
-                    <div className="container">
-                      <div className="col-12">
-                        <div className={styles.textDescriptionLeftBanner}>
-                          <div className={styles.textDescInnerLeft}>
-                            <RichText
-                              render={body.primary.ImgWInfoContainerTitle}
-                            />
-                            <RichText
-                              render={body.primary.ImgWInfoContainerDesc}
-                            />
-                          </div>
-                        </div>
-                        <div className={styles.imgInnerRightContainer}>
-                          <Image
-                            className={styles.imgInnerRight}
-                            loader={prismicLoader}
-                            src={body.primary.ImgWInfoContainerRightImg.url}
-                            alt={body.primary.ImgWInfoContainerRightImg.alt}
-                            width={
-                              body.primary.ImgWInfoContainerRightImg.dimensions
-                                .width
-                            }
-                            height={
-                              body.primary.ImgWInfoContainerRightImg.dimensions
-                                .height
-                            }
+                    <div className={styles.customContainer2}>
+                      <div className={styles.textDescriptionLeftBanner}>
+                        <div className={styles.textDescInnerLeft}>
+                          <RichText
+                            render={body.primary.ImgWInfoContainerTitle}
                           />
+                          <RichText
+                            render={body.primary.ImgWInfoContainerDesc}
+                          />
+                        </div>
+                      </div>
+                      <div className={styles.imgInnerRightContainer}>
+                        <Image
+                          className={styles.imgInnerRight}
+                          loader={prismicLoader}
+                          src={body.primary.ImgWInfoContainerRightImg.url}
+                          alt={body.primary.ImgWInfoContainerRightImg.alt}
+                          width={
+                            body.primary.ImgWInfoContainerRightImg.dimensions
+                              .width
+                          }
+                          height={
+                            body.primary.ImgWInfoContainerRightImg.dimensions
+                              .height
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Center Quote */}
+            <div key={body.slice_type["center_quote"]}>
+              <div>
+                {body.slice_type === "center_quote" && (
+                  <div key={body.slice_type}>
+                    <div className="d-flex justify-content-center">
+                      <div className={styles.blockquote}>
+                        <div className={styles.quoteTextStylesLong}>
+                          <RichText render={body.primary.CenterQuoteh3} />
                         </div>
                       </div>
                     </div>

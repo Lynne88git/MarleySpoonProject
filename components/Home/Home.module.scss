@@ -94,6 +94,13 @@
   padding-right: 20px;
 }
 
+.customContainer2 {
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+  max-height: 696px;
+}
+
 .rowBlockvlg {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -127,6 +134,13 @@
   width: 450px;
   font-size: 1.33333rem;
   line-height: 1.25em;
+}
+
+.quoteTextStylesLong {
+  width: 600px;
+  font-size: 1.33333rem;
+  line-height: 1.25em;
+  max-height: 300px;
 }
 
 .blockquote {
@@ -197,7 +211,7 @@
 
 .textDescInnerLeft {
   position: relative !important;
-  width: 50%;
+  width: 55%;
   padding: 130px;
   text-align: left;
 }
@@ -209,8 +223,9 @@
 }
 
 .imgInnerRight {
-  min-width: 50% !important;
-  min-height: 50% !important;
+  min-width: 38% !important;
+  min-height: 38% !important;
+  margin: -13px 0px 0px 609px !important;
 }
 
 @media (min-width: 768px) {
