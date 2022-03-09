@@ -99,6 +99,7 @@
   width: 100%;
   margin: auto;
   max-height: 696px !important;
+  margin-left: 91px;
 }
 
 .customColourRow {
@@ -231,7 +232,7 @@
 
 .textDescInnerLeft {
   position: relative !important;
-  width: 55%;
+  width: 62%;
   padding: 130px;
   text-align: left;
 }
@@ -239,13 +240,14 @@
 .imgInnerRightContainer {
   position: relative !important;
   width: 100%;
-  padding: 130px;
+  height: 600px;
 }
 
 .imgInnerRight {
   min-width: 38% !important;
   min-height: 38% !important;
-  margin: -13px 0px 0px 609px !important;
+  margin: 9px 0px 0px 722px !important;
+  padding: 30px;
 }
 
 @media (min-width: 768px) {

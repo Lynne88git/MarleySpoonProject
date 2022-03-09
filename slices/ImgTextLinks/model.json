@@ -1,0 +1,53 @@
+{
+  "id": "img_text_links",
+  "type": "SharedSlice",
+  "name": "ImgTextLinks",
+  "description": "ImgTextLinks",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImgTextLinks",
+      "primary": {
+        "ImgTextLinksTitle": {
+          "config": {
+            "label": "ImgTextLinksTitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading5"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "ImgTextLinksImg": {
+          "config": {
+            "label": "ImgTextLinksImg",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "ImgTextLinksText": {
+          "config": {
+            "label": "ImgTextLinksText",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "ImgTextLinksLinks": {
+          "config": {
+            "label": "ImgTextLinksLinks",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}

@@ -318,6 +318,23 @@ const Home: FC<HomeProps> = (props) => (
                 )}
               </div>
             </div>
+
+            {/* Why EdApp */}
+            <div key={body.slice_type["grid_three_blocks"]}>
+              <div>
+                {body.slice_type === "grid_three_blocks" && (
+                  <div key={body.slice_type}>
+                    <div className={styles.customContainer}>
+                      <div className={styles.rowBlockvlg}>
+                        <div className={styles.blockvsm}>
+                          <RichText render={body.primary.gridTitle} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
           </>
         ))}
       </article>

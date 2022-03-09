@@ -1,0 +1,54 @@
+{
+  "id": "grid_three_blocks",
+  "type": "SharedSlice",
+  "name": "GridThreeBlocks",
+  "description": "GridThreeBlocks",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "GridThreeBlocks",
+      "primary": {
+        "gridTitle": {
+          "config": {
+            "label": "gridTitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "gridRoundImg": {
+          "config": {
+            "label": "gridRoundImg",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "gridImgTitle": {
+          "config": {
+            "label": "gridImgTitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          },
+          "type": "StructuredText"
+        },
+        "gridDescription": {
+          "config": {
+            "label": "gridDescription",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

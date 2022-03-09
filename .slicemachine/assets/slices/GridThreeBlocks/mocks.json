@@ -1,0 +1,118 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "grid_three_blocks",
+    "items": [
+      {
+        "gridRoundImg": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+        },
+        "gridImgTitle": [
+          {
+            "type": "heading4",
+            "text": "Monetize 24/365 infomediaries",
+            "spans": []
+          }
+        ],
+        "gridDescription": [
+          {
+            "type": "paragraph",
+            "text": "Consequat ut laborum culpa velit enim quis deserunt. Et labore non officia. Ut reprehenderit fugiat in.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "gridRoundImg": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
+        },
+        "gridImgTitle": [
+          {
+            "type": "heading4",
+            "text": "Facilitate rich infrastructures",
+            "spans": []
+          }
+        ],
+        "gridDescription": [
+          {
+            "type": "paragraph",
+            "text": "Minim elit voluptate ipsum mollit Lorem officia tempor anim. Non elit consequat voluptate id magna aliqua. Id sit est eu incididunt.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "gridRoundImg": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
+        },
+        "gridImgTitle": [
+          {
+            "type": "heading4",
+            "text": "Expedite 24/7 networks",
+            "spans": []
+          }
+        ],
+        "gridDescription": [
+          {
+            "type": "paragraph",
+            "text": "Est fugiat voluptate elit veniam incididunt do nostrud veniam proident qui ea ex tempor. Dolor velit aliquip fugiat commodo nostrud tempor aliqua dolore enim. In minim est anim labore sunt officia.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "gridRoundImg": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+        },
+        "gridImgTitle": [
+          {
+            "type": "heading4",
+            "text": "Enable synergistic convergence",
+            "spans": []
+          }
+        ],
+        "gridDescription": [
+          {
+            "type": "paragraph",
+            "text": "Est cillum sit dolor veniam Lorem nisi enim proident commodo. Quis est culpa id ad.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "gridTitle": [
+        {
+          "type": "heading2",
+          "text": "Syndicate leading-edge users",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
